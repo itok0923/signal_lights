@@ -9,12 +9,10 @@ class LEDSet {
     void LED_blink();
     void LED_on();
     void LED_off();
-    int LEDpin;
-    int LEDstat;
     void LED_brightness(int duty_cycle);
-  private:
-    int on_ratio;
-    int off_ratio;
+    int LEDstat;
+ private:
+    int LEDpin;
 };
 
 #endif

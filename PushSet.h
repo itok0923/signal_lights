@@ -6,6 +6,7 @@
 class PushSet {
   public:
     PushSet(int pin);
+  private:
     int Pushpin;
 };
 
